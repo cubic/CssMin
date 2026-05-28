@@ -128,10 +128,10 @@ abstract class aCssParserPlugin
 	 * Constructor.
 	 *
 	 * @param CssParser $parser The CssParser object of this plugin.
-	 * @param array $configuration Plugin configuration [optional]
+	 * @param ?array $configuration Plugin configuration [optional]
 	 * @return void
 	 */
-	public function __construct(CssParser $parser, array $configuration = null)
+	public function __construct(CssParser $parser, ?array $configuration = null)
 	{
 		$this->configuration	= $configuration;
 		$this->parser			= $parser;
