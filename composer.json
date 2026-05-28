@@ -1,9 +1,9 @@
 {
-	"name": "cubic/cssmin",
-	"description": "A maintained fork of CssMin, a CSS minifier with PHP 8 compatibility",
+	"name": "jakubmisek/cssmin",
+	"description": "A maintained fork of CssMin, a CSS minifier with PHP >=8.3 compatibility",
 	"type": "library",
 	"keywords": ["css", "minify", "cssmin", "css-minifier"],
-	"homepage": "https://github.com/tvoje-jmeno/cssmin",
+	"homepage": "https://github.com/cubic/cssmin",
 	"license": "MIT",
 	"authors": [
 		{
