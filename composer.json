@@ -1,26 +1,32 @@
 {
-	"name": "skeeks/cssmin",
-	"description": "Minifying CSS",
+	"name": "cubic/cssmin",
+	"description": "A maintained fork of CssMin, a CSS minifier with PHP 8 compatibility",
 	"type": "library",
-	"keywords": ["css","minify"],
-	"homepage": "http://code.google.com/p/cssmin/",
+	"keywords": ["css", "minify", "cssmin", "css-minifier"],
+	"homepage": "https://github.com/tvoje-jmeno/cssmin",
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "Joe Scylla",
 			"email": "joe.scylla@gmail.com",
-			"homepage": "https://profiles.google.com/joe.scylla"
+			"homepage": "https://profiles.google.com/joe.scylla",
+			"role": "Original author"
+		},
+		{
+			"name": "Jakub Míšek",
+			"email": "info@jakubmisek.cz",
+			"homepage": "https://github.com/cubic",
+			"role": "Fork maintainer"
 		}
 	],
 	"require": {
-		"php": ">=5.0"
+		"php": ">=8.3"
 	},
 	"autoload": {
 		"classmap": ["src/"]
 	},
-	"extra": {
-		"branch-alias": {
-			"dev-master": "3.0-dev"
-		}
+	"support": {
+		"source": "https://github.com/cubic/cssmin",
+		"issues": "https://github.com/cubic/cssmin/issues"
 	}
 }
